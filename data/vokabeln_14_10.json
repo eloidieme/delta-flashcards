@@ -1,0 +1,125 @@
+{
+  "title": "Fiche Vocabulaire cours 3 (14.10.2025)",
+  "cards": [
+    {
+      "front": "bewegen",
+      "back": "bouger / mouvoir"
+    },
+    {
+      "front": "lösen",
+      "back": "résoudre"
+    },
+    {
+      "front": "auflösen",
+      "back": "dissoudre"
+    },
+    {
+      "front": "lösbar",
+      "back": "solvable"
+    },
+    {
+      "front": "löslich",
+      "back": "soluble"
+    },
+    {
+      "front": "bekommen",
+      "back": "recevoir"
+    },
+    {
+      "front": "verhandeln",
+      "back": "négocier"
+    },
+    {
+      "front": "verhandelbar",
+      "back": "négociable"
+    },
+    {
+      "front": "machbar",
+      "back": "faisable"
+    },
+    {
+      "front": "die Rechnung",
+      "back": "l'addition / la facture"
+    },
+    {
+      "front": "empfangen (empfing, empfangen)",
+      "back": "accueillir"
+    },
+    {
+      "front": "leihen (lieh, geliehen)",
+      "back": "prêter / emprunter"
+    },
+    {
+      "front": "ablehnen",
+      "back": "refuser"
+    },
+    {
+      "front": "der Antrag",
+      "back": "une demande"
+    },
+    {
+      "front": "das Abkommen",
+      "back": "un traité"
+    },
+    {
+      "front": "erneuern",
+      "back": "renouveler"
+    },
+    {
+      "front": "erneuerbar",
+      "back": "renouvelable"
+    },
+    {
+      "front": "absagen",
+      "back": "annuler"
+    },
+    {
+      "front": "vorhersehen",
+      "back": "prévoir"
+    },
+    {
+      "front": "vorhersehbar",
+      "back": "prévisible"
+    },
+    {
+      "front": "der Befehl",
+      "back": "un ordre"
+    },
+    {
+      "front": "rechnen",
+      "back": "calculer"
+    },
+    {
+      "front": "empfehlen",
+      "back": "recommander"
+    },
+    {
+      "front": "vorschlagen",
+      "back": "proposer"
+    },
+    {
+      "front": "ähnlich",
+      "back": "similaire / ressemblant"
+    },
+    {
+      "front": "das Muster",
+      "back": "un motif"
+    },
+    {
+      "front": "anwenden",
+      "back": "appliquer"
+    },
+    {
+      "front": "Überwachtes Lernen",
+      "back": "apprentissage supervisé"
+    },
+    {
+      "front": "Unüberwachtes Lernen",
+      "back": "apprentissage non supervisé"
+    },
+    {
+      "front": "Verstärkendes Lernen",
+      "back": "Reinforcement Learning"
+    }
+  ]
+}
