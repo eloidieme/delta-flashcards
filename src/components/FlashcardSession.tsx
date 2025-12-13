@@ -144,7 +144,12 @@ export function FlashcardSession({ deckId }: FlashcardSessionProps) {
       </motion.div>
 
       {/* Next Button */}
-      <Button onClick={handleNext} size="lg" className="min-w-[200px]">
+      <Button
+        onClick={handleNext}
+        size="lg"
+        disabled={!isFlipped}
+        className="min-w-[200px]"
+      >
         {currentCardIndex < shuffledCards.length - 1 ? "Next Card" : "Finish"}
       </Button>
     </div>
