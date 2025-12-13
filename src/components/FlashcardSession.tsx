@@ -116,49 +116,31 @@ export function FlashcardSession({ deckId }: FlashcardSessionProps) {
 
       {/* Flashcard */}
       <motion.div
-        className="w-full max-w-2xl cursor-pointer perspective-1000"
+        className="w-full max-w-2xl cursor-pointer"
         onClick={handleCardClick}
         whileHover={{ scale: 1.02 }}
         transition={{ duration: 0.2 }}
       >
-        <motion.div
-          className="relative w-full"
-          initial={false}
-          animate={{ rotateY: isFlipped ? 180 : 0 }}
-          transition={{ duration: 0.6, type: "spring" }}
-          style={{ transformStyle: "preserve-3d" }}
+        <Card
+          className={`w-full h-80 p-12 rounded-xl flex items-center justify-center ${
+            isFlipped
+              ? "bg-zinc-800 border-zinc-700"
+              : "bg-zinc-900 border-zinc-800"
+          }`}
         >
-          {/* Front */}
-          <Card
-            className="w-full h-80 p-12 bg-zinc-900 border-zinc-800 rounded-xl flex items-center justify-center"
-            style={{
-              backfaceVisibility: "hidden",
-              position: isFlipped ? "absolute" : "relative",
-            }}
-          >
-            <div className="text-center space-y-4">
-              <p className="text-5xl font-bold">{currentCard.front}</p>
-              <p className="text-sm text-zinc-500 mt-8">Click to reveal</p>
-            </div>
-          </Card>
-
-          {/* Back */}
-          <Card
-            className="w-full h-80 p-12 bg-zinc-800 border-zinc-700 rounded-xl flex items-center justify-center"
-            style={{
-              backfaceVisibility: "hidden",
-              transform: "rotateY(180deg)",
-              position: isFlipped ? "relative" : "absolute",
-              top: 0,
-            }}
-          >
-            <div className="text-center space-y-4">
+          <div className="text-center space-y-4">
+            {isFlipped ? (
               <p className="text-4xl font-semibold text-zinc-300">
                 {currentCard.back}
               </p>
-            </div>
-          </Card>
-        </motion.div>
+            ) : (
+              <>
+                <p className="text-5xl font-bold">{currentCard.front}</p>
+                <p className="text-sm text-zinc-500 mt-8">Click to reveal</p>
+              </>
+            )}
+          </div>
+        </Card>
       </motion.div>
 
       {/* Next Button */}
